@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+:root{
+    --main-color:#4ea9f3;
+    --second-color:#fff;
+    --btn-background:#ff1212;
+    --font-family:font-family: 'Lexend', sans-serif;
+}
+.home{
+    background: url(image/banner-bg.png);
+    width: 100%;
+}
+.home .content{
+    margin-top: 20%;
+}
+.home .content h2{
+    font-size: 55px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lexend', sans-serif;
+}
+.home .content h1{
+    font-size: 68px;
+    color:#4ea9f3;
+    text-transform: uppercase;
+    font-family: 'Lexend', sans-serif;
+}
+.home .content p{
+    font-family: 'Lexend', sans-serif;
+}
+.home .home-btn{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 3px solid #4ea9f3;
+    font-size: 19px;
+    font-weight: 500;
+}
+.home .home-img{
+    margin-top: 23%;
+}
+.about{
+    background: #f2f7fd;
+}
+.about .content h1{
+    text-align: right;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.about .content p{
+    text-align: right;
+    font-size: 17px;
+}
+.about-btn{
+    float: right;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 3px solid #4ea9f3;
+    font-size: 19px;
+    font-weight: 500;
+}
+.product .heading h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.product .heading h1 span{
+    color: #4ea9f3;
+}
+.product .heading p{
+    font-size: 19px;
+}
+.product .content h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4ea9f3;
+    font-family: 'Lexend', sans-serif;
+}
+.product .content p{
+    font-size: 18px;
+}
+.pro-btn{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 3px solid #4ea9f3;
+    font-size: 19px;
+    font-weight: 500;
+}
+.game{
+    background: url(image/video-bg.png);
+    width: 100%;
+}
+.game .content{
+    margin-top: 25%;
+}
+.game .content h2{
+    color: #4ea9f3;
+    font-size: 47px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.game .content h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 600;
+}
+.game-btn{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 3px solid #4ea9f3;
+    font-size: 19px;
+    font-weight: 500;
+}
+.test .heading h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.test .heading p{
+    font-size: 18px;
+}
+.test .content i{
+    color: #4ea9f3;
+}
+.test-btn{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 3px solid #4ea9f3;
+    font-size: 19px;
+    font-weight: 500;
+}
+.contact{
+    background: #f2f7fd;
+}
+.contact input{
+    border-bottom: 2px solid #000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: none;
+}
+.contact textarea{
+    border-bottom: 2px solid #000;
+    background: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.contact-btn{
+    background-color: #ff1212;
+    color: #fff;
+    padding: 8px 50px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 19px;
+    font-weight: 500;
+}
+.footer h2{
+    font-weight: 600;
+    font-family: 'Lexend', sans-serif;
+}
+.foot-btn{
+    background: #4ea9f3;
+    padding: 8px 50px;
+    color: #fff;
+    font-weight: 500;
+    border: 0;
+}
+.footer .icons i{
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.footer .credit{
+    background: #4ea9f3;
+}
+.footer .credit p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width:480px){
+    .home .content h2{
+        font-size: 40px;
+    }
+    .home .content h1{
+        font-size: 48px;
+    }
+    .game .content h1{
+        font-size: 49px;
+    }
+}
+@media only screen and (max-width:660px){
+    .home .content h2{
+        font-size: 40px;
+    }
+    .home .content h1{
+        font-size: 48px;
+    }
+    .game .content h1{
+        font-size: 49px;
+    }
+}
